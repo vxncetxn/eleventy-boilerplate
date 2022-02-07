@@ -1,0 +1,19 @@
+{
+    "name": "eleventy-boilerplate",
+    "version": "1.0.0",
+    "description": "A minimal eleventy boilerplate that comes with Vite (via the Slinkity plugin), Tailwind and Prettier",
+    "main": ".eleventy.js",
+    "scripts": {
+        "dev": "slinkity --serve --incremental",
+        "build": "slinkity",
+        "preview": "npm run build && serve -l 8080 _site"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "@11ty/eleventy": "^1.0.0",
+        "autoprefixer": "^10.4.2",
+        "postcss": "^8.4.6",
+        "slinkity": "^0.5.0",
+        "tailwindcss": "^3.0.18"
+    }
+}

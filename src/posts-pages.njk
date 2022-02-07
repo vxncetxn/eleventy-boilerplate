@@ -1,0 +1,14 @@
+---
+layout: layout
+pagination:
+    data: posts
+    size: 1
+    alias: post
+permalink: 'posts/{{ post.slug }}/'
+eleventyComputed:
+    title: '{{ post.title }}'
+---
+
+<div class="text-5xl font-bold text-red-500">{{ post.title }}</div>
+<p>{{ post.body }}</p>
+<a href="/" class="text-blue-500 underline">Back</a>

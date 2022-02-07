@@ -1,0 +1,16 @@
+---
+layout: layout
+title: Homepage
+pagination:
+    data: posts
+    size: 10
+---
+
+<div class="text-5xl font-bold text-red-500">Hello world!</div>
+<ul>
+    {%- for item in pagination.items %}
+    <li>
+        <a href="/posts/{{ item.slug }}" class="text-blue-500 underline">{{ item.title }}</a>
+    </li>
+    {% endfor -%}
+</ul>

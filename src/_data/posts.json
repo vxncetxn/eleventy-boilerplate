@@ -1,0 +1,12 @@
+[
+    {
+        "title": "Initial post",
+        "body": "This is the first post",
+        "slug": "initial-post"
+    },
+    {
+        "title": "Second post",
+        "body": "This is the second post",
+        "slug": "second-post"
+    }
+]
