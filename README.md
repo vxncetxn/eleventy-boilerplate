@@ -6,6 +6,10 @@ Minimal **[Eleventy](https://www.11ty.dev/)** boilerplate that comes with a few 
 -   **[Tailwind](https://tailwindcss.com/)** for simple utility-first CSS authoring.
 -   **[Prettier](https://prettier.io/)** for automated code formatting (configured to support .njk files in VS Code by associating them with .html files).
 
+Optional features can be found in repository branches:
+
+-   **[Typescript](https://www.typescriptlang.org/)** to add static typing for type safety and type references
+
 ## Install dependencies and start development server
 
 ```bash
