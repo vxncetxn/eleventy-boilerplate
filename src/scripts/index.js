@@ -1,1 +1,5 @@
-console.log('Hello from index.js!');
+function main(name) {
+    console.log(`Hello ${name}!`);
+}
+
+main('Javascript');
