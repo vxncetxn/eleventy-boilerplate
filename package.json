@@ -5,7 +5,7 @@
     "main": ".eleventy.js",
     "scripts": {
         "dev": "slinkity --serve --incremental",
-        "build": "slinkity",
+        "build": "tsc && slinkity",
         "preview": "npm run build && serve -l 8080 _site"
     },
     "dependencies": {},
@@ -14,6 +14,7 @@
         "autoprefixer": "^10.4.2",
         "postcss": "^8.4.6",
         "slinkity": "^0.5.0",
-        "tailwindcss": "^3.0.18"
+        "tailwindcss": "^3.0.18",
+        "typescript": "^4.5.5"
     }
 }
