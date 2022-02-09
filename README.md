@@ -9,6 +9,7 @@ Minimal **[Eleventy](https://www.11ty.dev/)** boilerplate that comes with a few 
 Optional features can be found in repository branches:
 
 -   **[Typescript](https://www.typescriptlang.org/)** to add static typing for type safety and type references
+-   **[Image Plugin](https://www.11ty.dev/docs/plugins/image/)** for build-time image optimizations
 
 ## Install dependencies and start development server
 
