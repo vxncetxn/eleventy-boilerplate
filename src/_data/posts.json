@@ -2,11 +2,15 @@
     {
         "title": "Initial post",
         "body": "This is the first post",
-        "slug": "initial-post"
+        "slug": "initial-post",
+        "banner": "dog-one.jpg",
+        "bannerAlt": "dog one"
     },
     {
         "title": "Second post",
         "body": "This is the second post",
-        "slug": "second-post"
+        "slug": "second-post",
+        "banner": "dog-two.jpg",
+        "bannerAlt": "dog two"
     }
 ]

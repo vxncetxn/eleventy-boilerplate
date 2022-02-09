@@ -11,6 +11,7 @@
     "dependencies": {},
     "devDependencies": {
         "@11ty/eleventy": "^1.0.0",
+        "@11ty/eleventy-img": "^1.0.0",
         "autoprefixer": "^10.4.2",
         "postcss": "^8.4.6",
         "slinkity": "^0.5.0",

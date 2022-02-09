@@ -12,3 +12,4 @@ eleventyComputed:
 <div class="text-5xl font-bold text-red-500">{{ post.title }}</div>
 <p>{{ post.body }}</p>
 <a href="/" class="text-blue-500 underline">Back</a>
+{% image './src/images/' + post.banner, post.bannerAlt %}
